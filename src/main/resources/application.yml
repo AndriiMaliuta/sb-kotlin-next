@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://188.225.33.236:5432/database
+    username: hostman
+    password: 1629ed3b
+    driver-class-name: org.postgresql.Driver
