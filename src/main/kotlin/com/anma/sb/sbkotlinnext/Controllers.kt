@@ -11,7 +11,7 @@ class CatController(val dogRepository: DogRepository) {
     fun getCats():List<Dog> = dogRepository.findAll()
 
     @PostMapping
-    fun createDog(dog: Dog): Dog {
+    fun createDog(@RequestBody dog: Dog): Dog {
         return dogRepository.save(dog)
     }
 }

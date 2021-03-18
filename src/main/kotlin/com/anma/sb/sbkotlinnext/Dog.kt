@@ -9,5 +9,6 @@ import javax.persistence.Table
 @Entity
 data class Dog(var name: String,
                var age: Int,
+               var born: Date,
                @Id var id: UUID
 )
