@@ -7,6 +7,6 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
   datasource:
     url: jdbc:postgresql://188.225.33.236:5432/database
-    username: hostman
-    password: 1629ed3b
+    username: username
+    password: password
     driver-class-name: org.postgresql.Driver
